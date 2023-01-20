@@ -1,0 +1,278 @@
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Questrial', sans-serif;
+  background-color: #222121;
+ } 
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+#h1{
+ font-size: 3.5em;
+ font-family: 'Questrial', sans-serif;
+ color: #ffffff;
+ flex-direction: column;
+ display: grid;
+ margin-left: 40px;
+}
+#p{
+    font-size: 1.5rem;
+    font-family: 'Questrial', sans-serif;
+    float: right;
+    margin-right: 40px;
+    margin-top: -94px;
+    color: #ffffff;
+} 
+/* Slideshow container */
+.slideshow-container {
+  max-width:1250px;
+  position: relative;
+  margin: auto;
+}
+*  {box-sizing:border-box} 
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+   font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} 
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(243, 240, 240);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* second page */
+.img{
+    height:fit-content;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    float:right;
+    margin-right: 45px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+}
+#h2{
+    font-size: 5em;
+    font-family:'Questrial', sans-serif;
+    float:left;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+#p2{
+    font-size: 1.5em;
+    font-family:'Questrial', sans-serif;
+    float:left;
+    margin-left:290px;
+    margin-top:40px;
+    text-align: center;
+    text-align: justify;
+}
+#my-work{
+    font-size: 5em;
+    font-family:'Questrial', sans-serif;
+    float: left;
+    margin-left: 45px;
+    margin-top: 100px;
+
+}
+.img2{
+    max-width: 500px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left:-340px;
+    font-family:'Questrial', sans-serif;
+    float:left;
+    margin-bottom: 50px;
+}
+.img3{
+    max-width: 350px;
+    height: 500px;
+    float: right;
+    margin-top: 40px;
+    margin-right:10px;
+    margin-left: 50px;
+    font-family:'Questrial', sans-serif;
+}
+.img4{
+    max-width: 350px;
+    height: 500px;
+    float:left;
+    margin-top: 40px;
+    margin-left: 5px;
+    font-family:'Questrial', sans-serif;
+    margin-bottom: 100px;
+}
+.container3{
+    width: 500px;
+    height: 400px;
+}
+.img5{
+    max-width: 500px;
+    height: 650px;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+.img6{
+  max-width: 500px;
+  height: 700px;
+  margin-right: 50px;
+  margin-top:-650px;
+  float: right;
+  flex-direction: column-reverse;
+}
+.img7{
+  max-width: 300px;
+  height: 60%;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-top:390px;
+  float: right;
+  margin-bottom: 50px;
+}
+.img8{
+  max-width: 500px;
+  margin-left: 400px;
+  float: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#h5{
+  font-size: 4em;
+ float: left;
+ margin-left:30px;
+ margin-top: 100px;
+ text-decoration:none;
+ align-items: center;
+ 
+}
+#p5{
+  font-size:1em;
+  float:left;
+  margin-left: -185px;
+  margin-top: 50px;
+  text-decoration: double;
+  text-align:justify;
+}
+#rm{
+  float: left;
+  margin-top: 890px;
+  margin-right: 30px;
+  font-size: 1.05em;
+}
+#work-with{
+  font-size: 6em;
+  font-family:'Questrial', sans-serif;
+  float: left;
+  margin-left: 45px;
+  margin-top: 130px;
+
+}
+#personal{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float:left;
+  margin-right: 10px;
+}
+section{
+  color: #fffdfd;
+}
+.container1{
+  box-sizing: border-box;
+  margin:auto;
+  padding: auto;
+  display: flex;
+}
+.container2{
+  box-sizing:content-box ;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.container-3{
+  box-sizing:content-box ;
+  margin: 0;
+  padding: 0;
+}
+.container4{
+  box-sizing:content-box;
+  margin:0;
+  padding:0;
+  display: flex;
+}
